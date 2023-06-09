@@ -1,0 +1,23 @@
+section h2 {
+    color: red;
+}
+
+footer p {
+    color: yellow;
+}
+
+section.sosmed a:hover {
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
+a:active {
+    color: green;
+    margin: 10px;
+    padding: 5px;
+}
+
+a:visited {
+    color: green;
+}
