@@ -1,23 +1,26 @@
-section h2 {
-    color: red;
-}
-
-footer p {
-    color: yellow;
-}
-
-section.sosmed a:hover {
+/* li:nth-child(odd) {
+    color: black;
     background-color: black;
-    margin: 10px;
-    padding: 5px;
+
 }
 
-a:active {
-    color: green;
-    margin: 10px;
-    padding: 5px;
+li:nth-child(even) {
+    color: red;
+    background-color: red;
 }
 
-a:visited {
-    color: green;
+a:hover {
+    background-color: black;
+    color: white;
+}
+/*  
+section.sosmed a[target="_blank"]:visited {
+    color: grey;
+}
+*/
+ul li {
+    display: inline-block;
+    margin: 10px;
+    float: right;
+    text-decoration: none;
 }
